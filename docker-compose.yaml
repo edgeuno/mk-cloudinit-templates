@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  mktemplate:
+    image: registry.gitlab..net:5000/devops/mk-template:latest
+    restart: always
+    environment:
+      - DEBUG=true
+    volumes:
+      - ./app/configs/:/code/app/configs/
+      - ./files/:/mnt/

@@ -1,0 +1,9 @@
+---
+
+ssh_user: ""
+ssh_pkey: "~/.ssh/id_rsa"
+# cimgs_src_path: "/mnt/"
+cimgs_src_path: "//dev/temp/files/cimgs"
+
+pves_list:
+  - 1:22:/cimgs/
